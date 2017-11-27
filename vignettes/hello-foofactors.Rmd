@@ -3,8 +3,6 @@ title: "foofactors_vg"
 author: "Yidie Feng"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
-          toc: true
-          keep_md: true
 vignette: >
   %\VignetteIndexEntry{foofactors_vg}
   %\VignetteEngine{knitr::rmarkdown}
