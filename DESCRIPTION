@@ -1,10 +1,13 @@
 Package: foofactors
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Make Factors Less Annoying
 Version: 0.1
 Date: 2017-11-26
-Author: Who wrote it
+Author: Yidie Feng
 Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Description: Factors have driven people to extreme measures, like ordering
+    custom conference ribbons and laptop stickers to express how HELLNO we
+    feel about stringsAsFactors. And yet, sometimes you need them. Can they
+    be made less maddening? Let's find out.
+License: MIT + file LICENSE
 LazyData: TRUE
