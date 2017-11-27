@@ -12,3 +12,5 @@ Description: Factors have driven people to extreme measures, like ordering
 License: MIT + file LICENSE
 LazyData: TRUE
 RoxygenNote: 6.0.1
+Suggests: 
+    testthat
