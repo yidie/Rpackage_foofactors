@@ -11,3 +11,4 @@ Description: Factors have driven people to extreme measures, like ordering
     be made less maddening? Let's find out.
 License: MIT + file LICENSE
 LazyData: TRUE
+RoxygenNote: 6.0.1
