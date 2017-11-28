@@ -1,14 +1,35 @@
 ---
-title: "foofactors"
-author: "Yidie Feng"
-date: "`r Sys.Date()`"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{foofactors}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+output: github_document
 ---
-Factors are a very useful type of variable in R, but they can also drive you nuts. Especially the "stealth factor" that you think of as character. This package provides some helper functions for the care and feeding of factors. This package is built based on [Jenny's `foofactors` package](http://stat545.com/packages06_foofactors-package.html).
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# foofactors
+
+Factors are a very useful type of variable in R, but they can also drive you nuts. This package provides some helper functions for the care and feeding of factors. This package is built based on [Jenny's `foofactors` package](http://stat545.com/packages06_foofactors-package.html). 
+- Functions Jenny wrote: `fbind()` and `freq_out()`.
+- I added two more functions `fdetect()` and `fbarplot()`. Please scroll down to the bottom for description and examples of these two functions.
+- [`fdetect.R`]() and [`test_fdetect.R`]()
+- [`fbarplot.R`]() and [`test_fbarplot.R`]()
+
+## Installation
+
+You can install foofactors from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("yidie/Rpackage_foofactors")
+```
+
+## Example
 
 ### Functions Jenny wrote
 
@@ -20,7 +41,7 @@ a <- factor(c("character", "hits", "your", "eyeballs"))
 b <- factor(c("but", "integer", "where it", "counts"))
 ```
 
-Simply concatenating two factors leads to a result that most don't expect.
+Simply catenating two factors leads to a result that most don't expect.
 
 ```{r}
 c(a, b)
@@ -51,7 +72,7 @@ freq_out(x)
 
 When a dataframe is read into R, the character vector in the dataframe will be treated as factors automatically sometimes if you don't specify certain arguments in `read...()`. We want to differentiate characters from real factors.
 
-The `fdetect()` function detects factors that should be character. It returns `TURE` if the input is a factor, `FALSE` if it is a character:
+The `fdetect()` function detects factors that should be character. It returns `TURE` if the input is indeed a factor, `FALSE` if it is a character:
 
 ```{r}
 fdetect(a)

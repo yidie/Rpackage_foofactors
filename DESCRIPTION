@@ -17,5 +17,7 @@ Suggests:
     knitr,
     rmarkdown
 Imports: 
-    dplyr
+    dplyr,
+    ggplot2,
+    proto
 VignetteBuilder: knitr
