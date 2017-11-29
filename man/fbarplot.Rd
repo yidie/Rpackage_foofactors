@@ -20,5 +20,6 @@ ggplot
 Create a bar plot for a factor with user-defined axis names.
 }
 \examples{
-fbarplot(iris$Species)
+x <- factor(sample(letters[1:5], size = 100, replace = TRUE))
+fbarplot(x, xlabel="Letters")
 }
