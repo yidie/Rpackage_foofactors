@@ -3,7 +3,15 @@
 foofactors
 ==========
 
-Factors are a very useful type of variable in R, but they can also drive you nuts. This package provides some helper functions for the care and feeding of factors. This package is built based on [Jenny's `foofactors` package](http://stat545.com/packages06_foofactors-package.html). - Functions Jenny wrote: `fbind()` and `freq_out()`. - I added two more functions `fdetect()` and `fbarplot()`. Please scroll down to the bottom for description and examples of these two functions. - [fdetect.R]() and [test\_fdetect.R]() - [fbarplot.R]() and [test\_fbarplot.R]()
+Factors are a very useful type of variable in R, but they can also drive you nuts. This package provides some helper functions for the care and feeding of factors. This package is built based on [Jenny's foofactors package](http://stat545.com/packages06_foofactors-package.html).
+
+-   Functions Jenny wrote: `fbind()` and `freq_out()`.
+
+-   I added two more functions `fdetect()` and `fbarplot()`. Please scroll down to the bottom for description and examples of these two functions.
+
+-   [`fdetect.R`]() and [`test_fdetect.R`]()
+
+-   [`fbarplot.R`]() and [`test_fbarplot.R`]()
 
 Installation
 ------------
