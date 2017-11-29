@@ -5,13 +5,15 @@ foofactors
 
 Factors are a very useful type of variable in R, but they can also drive you nuts. This package provides some helper functions for the care and feeding of factors. This package is built based on [Jenny's foofactors package](http://stat545.com/packages06_foofactors-package.html).
 
--   Functions Jenny wrote: `fbind()` and `freq_out()`.
+-   Functions Jenny wrote: `fbind()` and `freq_out()`. Originally, there was no test for `freq_out()`, so I add some tests for it.
 
--   I added two more functions `fdetect()` and `fbarplot()`. Please scroll down to the bottom for description and examples of these two functions.
+-   I added two more functions `fdetect()` and `fbarplot()` with tests. Please scroll down to the bottom for description and examples of these two functions.
 
--   [`fdetect.R`]() and [`test_fdetect.R`]()
+-   [`fdetect.R`](https://github.com/yidie/Rpackage_foofactors/blob/master/R/fdetect.R) and [`test_fdetect.R`](https://github.com/yidie/Rpackage_foofactors/blob/master/tests/testthat/test_fdetect.R)
 
--   [`fbarplot.R`]() and [`test_fbarplot.R`]()
+-   [`fbarplot.R`](https://github.com/yidie/Rpackage_foofactors/blob/master/R/fbarplot.R) and [`test_fbarplot.R`](https://github.com/yidie/Rpackage_foofactors/blob/master/tests/testthat/test_fbarplot.R)
+
+-   My process report and issue opened for reviews are [here](https://github.com/yidie/STAT545-hw-Feng-Yidie/issues/9).
 
 Installation
 ------------
